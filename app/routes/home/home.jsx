@@ -103,13 +103,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Thought leader of the fist poker metaverse club"
+        description="Lead a $50M World Series of Poker project to bridge a Web2 casino to Web3 blockchain."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/gamavrs"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Gamavrs',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -124,10 +124,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Atlanta Blockchain Economy"
+        description="ATL5D is the digital version of Atlanta powered by an $ATL loyalty rewards memecoin."
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://atl5d.com"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -148,13 +148,13 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="LUV NFT is tokenizing the world"
+        description="LUV NFT is the pioneer of tokenizing real world assets mapped to NFTs."
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'LUV NFT',
           textures: [
             {
               srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,

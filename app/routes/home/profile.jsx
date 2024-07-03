@@ -21,16 +21,17 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Hahz, currently I live in Atlanta and my energy is focused on elevating the city to {' '}
+      <Link href="https://atl5d.com">ATL5D</Link>. I received the nickname of The Wizard
+      of Hahz in the blockchain industry from being a pioneer of tokenizing the first real
+      world asset as an NFT in 2021. As a self thought blockchain coder with over 20 years
+      experience growing brands with digital marketing I have the abilities to create anything
+      and explain it a way anyone can understand.<Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my spare time I like to play basketball, code, and{' '}
+      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always open to hearing
+      about new projects that will move humanity forward, so feel free to drop me a line.
     </Text>
   </Fragment>
 );

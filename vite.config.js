@@ -20,6 +20,9 @@ export default defineConfig({
   },
   server: {
     port: 7777,
+    hmr: {
+      overlay: false,
+    },
   },
   plugins: [
     mdx({

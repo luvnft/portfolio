@@ -63,28 +63,28 @@ import {
 import { baseMeta } from '~/utils/meta';
 import { Suspense, lazy, useMemo } from 'react';
 import { media } from '~/utils/style';
-import styles from './smart-sparrow.module.css';
+import styles from './gamavrs.module.css';
 
 const Earth = lazy(() => import('./earth').then(module => ({ default: module.Earth })));
 const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = 'Designing the future of education';
+const title = 'Creator of the first poker metaverse';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'I was hired as the Web3 project lead for a metaverse project that aimed to solve the problem of enabling poker players to use L2 Ethereum crypto to play existing Web2 casino games.';
 const roles = [
-  'Art Direction',
-  'UX and UI Design',
+  'Web3 project manager',
+  'NFT Marketing strategy',
   'Front End Development',
-  'Motion Design',
+  'Mobile App Design',
 ];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });
 };
 
-export const SmartSparrow = () => {
+export const Gamavrs = () => {
   const { theme, toggleTheme } = useTheme();
   const isDark = theme === 'dark';
   const themes = ['dark', 'light'];
@@ -105,7 +105,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://gamavrs.com"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -541,7 +541,7 @@ export const SmartSparrow = () => {
               <ProjectSectionText>
                 Ultimately the project was successful after Smart Sparrow and the aero
                 platform were{' '}
-                <Link href="https://www.prnewswire.com/news-releases/pearson-acquires-interactive-learning-technology-from-smart-sparrow-300987673.html">
+                <Link href="https://www.prnewswire.com/news-releases/pearson-acquires-interactive-learning-technology-from-gamavrs-300987673.html">
                   acquired by Pearson in 2020
                 </Link>{' '}
                 to become a foundation for their next generation learning platform.

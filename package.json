@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
-  "homepage": "https://hamishw.com",
-  "description": "Portfolio site for Hamish Williams",
+  "homepage": "https://hahz.arvrtise.link",
+  "description": "Portfolio site for Hahz Terry",
   "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "Hamish Williams",
+  "author": "The Wizard of Hahz",
   "sideEffects": false,
   "type": "module",
   "scripts": {
