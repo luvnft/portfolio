@@ -134,13 +134,19 @@ export const Gamavrs = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>The problem</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+              I was hired as a Web3 project lead to advance a stagnant existing project that
+              was being built incorrectly, as the approach to building a project on Web3 is
+              the opposite of Web2. Upon joining the project, I had to reverse engineer all
+              of the Jira tasks and previous project updates to redirect the project on the
+              correct path, which involved dismantling and rebuilding 50% of the marketing,
+              development, and the design team project responsibilities. The primary goals
+              for the project were to reduce barriers for poker players worldwide to use
+              crypto to play the World Series of Poker existing Web2 games. Leading a Web2
+              international team with a tight deadline, limited understanding of Web3, and
+              language barriers was my greatest challenge to date. I developed a workaround
+              by providing the development team with detailed Jira tasks based on my blockchain
+              coding knowledge. I was also able to provide the design team in Russia with detailed
+              visual mockups in Figma for the mobile app, website, and NFT poker-themed characters.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
