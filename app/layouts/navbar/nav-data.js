@@ -25,14 +25,4 @@ export const socialLinks = [
     url: `https://twitter.com/${config.twitter}`,
     icon: 'twitter',
   },
-  {
-    label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
-  },
-  {
-    label: 'Github',
-    url: `https://github.com/${config.github}`,
-    icon: 'github',
-  },
 ];
