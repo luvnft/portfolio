@@ -18,6 +18,10 @@ import { ProjectSummary } from './project-summary';
 import { useEffect, useRef, useState } from 'react';
 import config from '~/config.json';
 import styles from './home.module.css';
+import server from "react-dom/server";
+
+const { renderToReadableStream } = server;
+
 
 // Prefetch draco decoader wasm
 export const links = () => {
